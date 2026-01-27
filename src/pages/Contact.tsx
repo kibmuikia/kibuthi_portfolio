@@ -1,3 +1,4 @@
+// kibuthi_portfolio/src/pages/Contact.tsx
 import { profileConfig } from '../config/profile';
 
 const Contact = () => {

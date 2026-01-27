@@ -1,3 +1,4 @@
+// kibuthi_portfolio/src/types/profile.ts
 export interface Skill {
   category: string;
   technologies: string[];

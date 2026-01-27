@@ -1,3 +1,4 @@
+// kibuthi_portfolio/src/components/sections/SkillsGrid.tsx
 import { profileConfig } from '../../config/profile';
 import styles from './SkillsGrid.module.css';
 

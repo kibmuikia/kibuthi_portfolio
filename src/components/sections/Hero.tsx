@@ -1,3 +1,4 @@
+// kibuthi_portfolio/src/components/sections/Hero.tsx
 import { profileConfig } from '../../config/profile';
 import styles from './Hero.module.css';
 

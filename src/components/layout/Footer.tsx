@@ -1,3 +1,4 @@
+// kibuthi_portfolio/src/components/layout/Footer.tsx
 import { profileConfig } from '../../config/profile';
 import styles from './Footer.module.css';
 

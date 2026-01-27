@@ -1,3 +1,4 @@
+// kibuthi_portfolio/src/pages/NotFound.tsx
 const NotFound = () => {
   return (
     <section className="section">

@@ -1,3 +1,4 @@
+// kibuthi_portfolio/src/components/layout/Navigation.tsx
 import { Link, NavLink } from 'react-router-dom';
 import ThemeToggle from '../ui/ThemeToggle';
 import { profileConfig } from '../../config/profile';

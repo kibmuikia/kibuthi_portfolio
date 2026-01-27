@@ -1,3 +1,4 @@
+// kibuthi_portfolio/src/pages/Home.tsx
 import Hero from '../components/sections/Hero';
 import SkillsGrid from '../components/sections/SkillsGrid';
 import ExperienceSummary from '../components/sections/ExperienceSummary';

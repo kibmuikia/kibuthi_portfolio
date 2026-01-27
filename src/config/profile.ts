@@ -1,3 +1,4 @@
+// kibuthi_portfolio/src/config/profile.ts
 import type { ProfileConfig } from '../types/profile';
 
 export const profileConfig: ProfileConfig = {

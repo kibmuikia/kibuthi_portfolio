@@ -1,3 +1,4 @@
+// kibuthi_portfolio/src/components/layout/Layout.tsx
 import { Outlet } from 'react-router-dom';
 import Navigation from './Navigation';
 import Footer from './Footer';

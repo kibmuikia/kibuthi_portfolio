@@ -1,3 +1,4 @@
+// kibuthi_portfolio/src/components/sections/ExperienceSummary.tsx
 import { profileConfig } from '../../config/profile';
 import styles from './ExperienceSummary.module.css';
 

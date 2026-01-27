@@ -1,16 +1,14 @@
-import { profileConfig } from '../config/profile';
+import Hero from '../components/sections/Hero';
+import SkillsGrid from '../components/sections/SkillsGrid';
+import ExperienceSummary from '../components/sections/ExperienceSummary';
 
 const Home = () => {
   return (
-    <section className="section">
-      <div className="container">
-        <h1>Welcome to {profileConfig.name}'s Portfolio</h1>
-        <p className="text-secondary">{profileConfig.tagline}</p>
-        <div className="card">
-          <p>{profileConfig.bio}</p>
-        </div>
-      </div>
-    </section>
+    <>
+      <Hero />
+      <SkillsGrid />
+      <ExperienceSummary />
+    </>
   );
 };
 

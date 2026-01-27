@@ -1,10 +1,12 @@
 import { useState } from 'react'
 import { useTheme } from './hooks/useTheme'
+import { profileConfig } from './config/profile'
 import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
   const { theme, toggleTheme } = useTheme()
+  const { name, tagline, skills } = profileConfig
 
   return (
     <div className="container">
@@ -14,23 +16,27 @@ function App() {
         </button>
       </div>
       
-      <div className="badge">Theme Preview</div>
-      <h1>Allan Kibuthi Portfolio</h1>
-      <p className="text-secondary">
-        Testing the "Green & Dark" design system integration.
-      </p>
+      <div className="badge">Phase 2: Data Layer Active</div>
+      <h1>{name}</h1>
+      <p className="text-secondary">{tagline}</p>
 
       <div className="card">
-        <h3>Interactive Component</h3>
-        <p className="text-secondary">
-          Click the button below to see the primary action style and transitions.
-        </p>
-        <button 
-          className="btn-primary" 
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Increment Counter: {count}
-        </button>
+        <h3>Skills Overview</h3>
+        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', justifyContent: 'center', marginTop: '16px' }}>
+          {skills.slice(0, 3).map(skill => (
+            <span key={skill.category} className="badge" style={{ marginBottom: 0 }}>
+              {skill.icon} {skill.category}
+            </span>
+          ))}
+        </div>
+        <div style={{ marginTop: '24px' }}>
+          <button 
+            className="btn-primary" 
+            onClick={() => setCount((count) => count + 1)}
+          >
+            Interaction Test: {count}
+          </button>
+        </div>
       </div>
 
       <p className="text-secondary" style={{ fontSize: 'var(--text-sm)' }}>

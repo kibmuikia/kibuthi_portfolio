@@ -37,7 +37,7 @@ kibuthi_portfolio/
 
 ### Prerequisites
 - Node.js (v18.0.0 or higher)
-- npm (v9.0.0 or higher) | prefer to use pnpm
+- Use pnpm
 
 ### Installation
 1. Clone the repository:
